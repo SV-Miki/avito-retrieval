@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dataset
+data/*.parquet
+
+# Generated submissions
+answer*.csv
+
+# System files
+.DS_Store
